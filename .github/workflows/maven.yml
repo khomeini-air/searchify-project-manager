@@ -23,4 +23,4 @@ jobs:
       run: sudo kill -9 $(sudo lsof -ti:8086)
     - name: Execute Jar File
       if: ${{ failure() || success() }}
-      run: sudo java -jar /searchify/searchify-projects-manager/actions-runner/_work/searchify-projects-manager/searchify-projects-manager/target/searchify-projects-manager-0.0.1-SNAPSHOT.jar
+      run: sudo java -jar /searchify/searchify-projects-manager/actions-runner/_work/searchify-projects-manager/searchify-projects-manager/target/searchify-project-manager-0.0.1-SNAPSHOT.jar
